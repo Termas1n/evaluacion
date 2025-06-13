@@ -1,0 +1,158 @@
+/**General**/
+.menu{
+    background-image: url(/img/header-background.jpg);
+    height: 100rem;
+    display: flex;
+    font-size: 4rem;
+    gap: 25rem;
+    padding: 3rem;
+}
+.menu img,h1,h2{
+    padding-left: 15rem;
+}
+.menu h1{
+    padding-top: 30rem;
+}
+.menu h2{
+    color: orange;
+    font-size: 3.5rem;
+}
+.vinilos{
+    text-align: center;
+    font-size: 6rem;
+    color: orange;
+}
+.principal {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    padding-left: 25rem;
+}
+.principal div{
+    border: solid .1rem;
+    height: 30%;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.boton{
+    padding: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: orange;
+    text-decoration: none;
+}
+.principal div h3{
+    color: orange;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 2rem;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+.footer{
+    display: flex;
+    gap: 20rem;
+    padding: 5rem 15rem;
+
+}
+.footer div a{
+    padding-left: 2rem;
+    color: orange;
+
+    ;
+}
+.sobre-nosotros{
+    background-color: black;
+    width: 100%;
+    height: 60rem;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+
+}
+.sobre-nosotros h2{
+    color: orange;
+    font-size: 5rem;
+    text-align: center;
+}
+.contacto{
+    background-color: antiquewhite;
+    height: 65rem;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+form {
+    text-align: center;
+    font-size: 4rem;
+    width: auto;
+    
+}
+
+.contacto h2{
+    color: orange;
+}
+.separadores{
+    display: flex;
+}
+footer {
+    background-color: black;
+    color: white;
+    
+}
+footer p {
+    text-align: center;
+    padding-bottom: 4rem;
+    font-size: 3rem;
+}
+.labeloso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.campo label {
+    width: 25rem;
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.campo input,
+.campo textarea {
+    width: 40rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+button{
+    background-color: orange;
+    border: 0cap;
+    padding: 2rem;
+    
+}
+
+
+
